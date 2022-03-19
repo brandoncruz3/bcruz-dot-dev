@@ -8,8 +8,8 @@ theme = "hugo-coder"
   info = "DevOps Engineer and Open Source Enthusiast"
   description = "BCruz-dot-dev"
   keywords = "blog,open-source,personal,devops"
-  avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
+  #avatarurl = "images/avatar.jpg"
+  gravatar = "brandonrcruz@gmail.com"
 
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
@@ -20,10 +20,6 @@ theme = "hugo-coder"
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
-
-  customCSS = ["css/custom.css"]
-  customSCSS = ["scss/custom.scss"]
-  customJS = ["js/custom.js"]
 
 [taxonomies]
   category = "categories"
@@ -36,24 +32,32 @@ theme = "hugo-coder"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/brandoncruz3/"
 [[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
+  name = "linkedin"
+  icon = "fa fa-linkedin fa-2x"
   weight = 2
-  url = "https://gitlab.com/johndoe/"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://www.linkedin.com/in/brandonrcruz/"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
+  name = "About"
   weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Blog"
+  weight = 2
   url  = "posts/"
 [[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+  name = "Projects"
+  weight = 3
+  url  = "projects/"
+[[menu.main]]
+  name = "Resume"
+  weight = 4
+  url  = "resume/"
+[[menu.main]]
+  name = "Contact"
+  weight = 5
+  url  = "contact/"
+  
