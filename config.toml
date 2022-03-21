@@ -14,12 +14,12 @@ theme = "hugo-coder"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2019
+  since = 2022
 
   enableTwemoji = true
 
   colorScheme = "auto"
-  hidecolorschemetoggle = false
+  hidecolorschemetoggle = true
 
 [taxonomies]
   category = "categories"
