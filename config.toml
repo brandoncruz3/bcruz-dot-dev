@@ -5,7 +5,7 @@ theme = "hugo-coder"
 
 [params]
   author = "Brandon Cruz"
-  info = "DevOps Engineer and Open Source Enthusiast"
+  info = "Staff DevOps Engineer and Open Source Enthusiast"
   description = "BCruz-dot-dev"
   keywords = "blog,open-source,personal,devops"
   #avatarurl = "images/avatar.jpg"
